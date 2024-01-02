@@ -1,5 +1,5 @@
 import React from 'react'
-import Header from '../weight/header'
+import Header from '../weight/Header'
 import Hero from '../weight/Hero'
 
 function Index() {
