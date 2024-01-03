@@ -19,7 +19,7 @@ function Hero() {
 
     try {
       // 发送 POST 请求到后端
-      const response = await axios.post('http://localhost:8888/submit', JSON.stringify(formData));
+      const response = await axios.post('http://localhost:8888/submit', formData);
       console.log(response.data); // 处理后端的响应
     } catch (error) {
       console.error('Error submitting form:', error);
